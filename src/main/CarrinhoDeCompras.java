@@ -48,8 +48,6 @@ public class CarrinhoDeCompras {
         if (!itemList.isEmpty()) {
             for (Item i : itemList) {
                 System.out.println("Item: " + i.getNome() + ", preço: " + i.getPreco() + ", quantidade: " + i.getQuantidade());
-                //System.out.println(i.getPreco());
-                //System.out.println(i.getQuantidade());
             }
         } else {
             System.out.println("A lista está vazia.");
